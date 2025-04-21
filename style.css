@@ -1,0 +1,67 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+body {
+    background-color: rgb(239, 244, 255);
+    font-family: "Pacifico", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.canvas {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.134), 0 1px 3px rgb(0, 0, 0, 0.88);
+    margin-bottom: -15px;
+}
+
+.controls {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls_colors {
+    display: flex;
+}
+
+.controls_colors .controls_color {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 3px;
+    cursor: pointer;
+    border: 1px, solid, black;
+    box-shadow: 0 0px 6px rgba(3, 4, 39, 0.44);
+}
+
+.controls_buttons {
+    margin-bottom: 15px;
+}
+
+.controls_buttons button {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(64, 114, 114);
+    cursor: pointer;
+    padding: 5px;
+    width: 135px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgba(64, 114, 114, 0.777);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 2ms;
+}
+
+
+.controls_buttons button:active {
+    transform: scale(1.1);
+}
+
+.controls .controls_range {
+    margin-bottom: 15px;
+}
