@@ -1,5 +1,6 @@
 const canvas = document.getElementById("jscanvas");
 const ctx = canvas.getContext("2d");
+const colors = document.getElementsByClassName("jscolor");
 
 ctx.lineWight = 2.5;
 ctx.StrokeStyle = "rgb(5, 5, 5)";
@@ -38,3 +39,5 @@ if (canvas) {
     canvas.addEventListener("mouseup", onMouseUp);
     canvas.addEventListener("mouseleave", onMouseUp);
 }
+
+console.log(colors)
