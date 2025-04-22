@@ -8,7 +8,6 @@ const DefaultColor = "rgb(5, 5, 5)"
 ctx.lineWidth = 2.5;
 ctx.strokeStyle = DefaultColor;
 ctx.fillStyle = DefaultColor;
-
 ctx.fillRect(0, 0, 800, 600)
 
 canvas.height = 600; // обязательно задать размер и тут, иначе мышь-линия не совпадают
